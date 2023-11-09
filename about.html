@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET SHOP</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" type="image/jpg" href="paw.jpg">
+    <script src="https://kit.fontawesome.com/bd68f34dcd.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .gg h1 {
+
+position: relative;
+top: 200px;
+
+}
+.gg h3{
+    font-style: italic;
+position: relative;
+top: 270px;  
+left: -80px;
+}
+
+*{
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    width: 100%;
+    height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.social_links{
+    display: flex;
+}
+.social_links a{
+    width: 80px;
+    height: 80px;
+    text-align:center ;
+    text-decoration:none;
+    color: black;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.5);
+    border-radius: 50%;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+.social_links .fa-brands{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: 0.5s;
+}
+.social_links a::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: -90px;
+    left: 0;
+    background: linear-gradient( -45deg,#ed1c94,#ffec17);
+    position: absolute;
+    transition: 0.5s;
+
+}
+.social_links a:hover::after{
+    top:0;
+}
+.social_links a:hover .fa-brands{
+    color: aliceblue;
+}
+.social_links a:hover {
+    transform: translateY(-10px);
+}
+</style>
+
+<body>
+    <nav>
+            
+            <label class="logo">
+            <img src="paw.jpg" alt="">
+            <h5>PET SHOP</h5>
+            <h6>by KickPau</h6>
+            </label>
+   
+     
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Pets</a></li>
+          <li><a href="about.html">About us</a></li>
+        </ul>
+
+    </nav>
+    <center>
+        <div class="gg">
+            <h1>ABOUT US</h1><br>
+            <h3>We are web developer</h3>
+        </div>
+    
+    </center>
+
+    <div class="icons">
+        <div class="social_links">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+           
+        </div>
+    </div>
+
+   
+   
+</body>
+</html>

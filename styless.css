@@ -1,0 +1,98 @@
+*{
+    text-decoration: none;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+   font-family: cursive;
+}
+ 
+body{
+    
+    background-image: url("bb.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     width: 100vw;
+     height: 100%;
+     
+    
+}
+ nav{
+    background-color: rgba(255, 99, 71, 0.354);
+    height: 80px;
+    width: 100%;
+    border-color: 10px  black;
+    
+   
+}
+
+div{
+    display: flex;
+}
+img{
+    height:50px;
+    width: 50px;
+    position: relative;
+}
+.logo{
+    color:white;
+    font-size:20px ;
+    position: relative;
+    left: 65px;
+    top: 30px;
+    display: inline;
+    margin-right: 1000px;
+    margin-bottom: 0px;
+    
+}
+.logo img{
+    position: absolute;
+    left:-56px;
+    top: -10px;
+
+}
+
+.logo h5{
+    letter-spacing: 10px;
+  
+ 
+}
+li a{
+    color: aliceblue;
+    font-size: 15px;
+}
+li a:hover{
+    color: black;
+    text-transform: lowercase;
+    text-decoration: underline;
+ }
+nav ul{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    top: -10px;
+
+}
+nav ul li{
+   
+    display: inline-block;
+    margin-left: 60px;
+    font-variant: small-caps;  
+}
+
+li input{
+    border-radius: 10px;
+}
+h1,h2{
+    color:black;
+    position: relative;
+    display: flex;
+    top: 250px;
+    left: 100px;
+    font-variant: small-caps;
+    font-size: 60px;
+ 
+}
